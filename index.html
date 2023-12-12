@@ -14,15 +14,103 @@
         crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+
     <!--Links CSS-->
-    <link rel="stylesheet" href="./components/styles/index.css" type="text/css">
+    <link rel="stylesheet" href="./components/styles/home.css" type="text/css">
 
     <title>Site da Dra. Suzane Sales</title>
 </head>
 <body>
-    <header class="d-flex">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/imgs/logo-header.png" class="logo-header" alt="Logo">
+                </a>
+          
+                <div class="justify-content-end">
+                    <ul class="navbar-nav" style="display: flex; gap: 2em">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Perguntas Frequentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Notícias e Conteúdo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+
+    <div class="page-content">
+        <main>
+            <div class="banner-home">
+                <img src="./assets/imgs/BANNER-HOME.png" alt="Banner Home">
+            </div>
+            <a class="cta-button green home-main-button" href="#">Agende sua Consulta</a>
+        </main>
+
+        <section>
+            <div class="row">
+                <div class="col-4">
+                    <div class="row">
+                        <img class="img-fluid" src="./assets/imgs/consulta-pre-natal.png" alt="Imagem Consulta Pré-Natal">
+                    </div>
+                    <div class="row m-1 shadow">
+                        <h2 class="h4 p-2">Consulta Pré-Natal</h2>
+                        <p class="p-2">Lorem, ipsum.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <img class="img-fluid" src="./assets/imgs/DSC_6864 copiar.png" alt="Imagem Consulta Pediátrica">
+                    </div>
+                    <div class="row m-1 shadow">
+                        <h2 class="h4 p-2">Consulta Pré-Natal</h2>
+                        <p class="p-2">Lorem, ipsum.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <img class="img-fluid" src="./assets/imgs/shutterstock_2207348935.png" alt="Imagem Consulta Pré-Natal">
+                    </div>
+                    <div class="row m-1 shadow">
+                        <h2 class="h4 p-2">Consulta Pré-Natal</h2>
+                        <p class="p-2">Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="height: 100vh">
+            <img src="./assets/imgs/IMG_2434.png" alt="Imagem Dra." class="img-absolute"></img>
+
+            <article class="text-right mt-5 mr-5">
+                <h1 class="h3">Sobre a Dra. Suzane Sales</h1>
+                <h2 class="h5">Pediatra e nefrologista</h2>
+
+                <p>
+                    Formada pela Faculdade de Medicina do ABC, a Dra. Suzane Sales é especializada em 
+                    pediatria pela Santa Casa de Misericórdia de São Paulo, além de ser 
+                    sub-especializada em nefrologia pela Faculdade de Medicina da USP. 
+                </p>
+                <p>
+                    Com mais de 10 anos de carreira médica a profissional dedica a sua vida à pediatria, 
+                    com foco total na saúde, bem-estar e desenvolvimento dos pequenos.
+                </p>
+
+                <a href="#" class="cta-button pink">Saiba Mais</a>
+            </article>
+        </section>
+    </div>
 </body>
 </html>

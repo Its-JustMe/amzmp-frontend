@@ -1,0 +1,15 @@
+:root {
+    --header-color: #FBFBFB;
+    --background-page: #00000012;
+
+    --heading-color: #4A7866;
+    --subheading-color: #808183;
+
+    --btn-background-pink: #E4AAAC;
+    --btn-background-blue: #0BAEDC;
+    --btn-background-purple: #511294;
+    --btn-background-green: #85C2AD; 
+
+    --primary-text-color: #6D6D6D;
+    --secondary-text-color: #FFFFFF;
+}

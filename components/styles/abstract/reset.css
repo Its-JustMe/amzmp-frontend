@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: inherit;
+    font-size: 18px/22px;
+    text-decoration: none;
+}
