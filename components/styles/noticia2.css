@@ -4,5 +4,6 @@ main {
     display: flex;
     flex-direction: column;
 
-    background: url('../../assets/imgs/banner-noticia2.png') no-repeat 100%;
+    background: url('../../assets/imgs/banner-noticia2.png') no-repeat;
+    background-size: cover;
 }

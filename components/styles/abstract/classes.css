@@ -132,6 +132,22 @@ main, section {
     font-weight: normal;
 }
 
+.back-btn {
+    width: 122px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: var(--btn-background-green);
+
+    padding: 8px;
+    overflow: hidden;
+    
+    position: relative;
+        left: 35px;
+        top: 45px;
+}
+
 .logo-header {
     width: 360px;
     height: auto;
@@ -140,12 +156,6 @@ main, section {
 .shadow {
     border-radius: 0 0 10px 10px;
     box-shadow: 0px 3px 17px #0000000F;
-}
-
-.text-right, .text-left {
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
 }
 
 .text-right {
@@ -253,8 +263,25 @@ main, section {
     height: auto;
 }
 
-@media (min-width: 768px) {
-    .text-right, .text-left {
+.text-right, .text-left {
+    overflow: hidden;
+    padding: 5px;
+}
+
+@media (max-width: 2000px) {
+    .text-right {
+        max-width: 800px;
+    }
+    .text-left {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .text-right {
+        max-width: 500px;
+    }
+    .text-left {
         max-width: 500px;
     }
 }
