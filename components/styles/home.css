@@ -18,32 +18,3 @@
     width: 80px;
     height: auto;
 }
-
-.card-1 {
-    background-image: url('../../assets/imgs/Grupo\ 439.png');
-}
-.card-2 {
-    background-image: url('../../assets/imgs/Grupo\ 440.png');
-}
-.card-3 {
-    background-image: url('../../assets/imgs/Grupo\ 441.png');
-}
-.card-4 {
-    background-image: url('../../assets/imgs/Grupo\ 442.png');
-}
-.card-5 {
-    background-image: url('../../assets/imgs/Grupo\ 443.png');
-}
-
-.card-title {
-    position: absolute;
-    bottom: 0;
-    color: var(--secondary-text-color);
-    font-size: 16px;
-}
-
-.card-small > .card-title {
-    font-size: 12px;
-    width: 80%;
-    padding: 5px;
-}
