@@ -1,1 +1,19 @@
 @import './imports.css';
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-card {
+    background-color: #fafafa;
+    border-radius: 14px;
+    z-index: 222;
+
+    width: 80%;
+    min-height: 780px;
+
+    transform: translateY(-100px);
+}
