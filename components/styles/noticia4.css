@@ -1,0 +1,8 @@
+@import './imports.css';
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    background: url('../../assets/imgs/banner-noticia4.png') no-repeat 100%;
+}
