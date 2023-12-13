@@ -46,8 +46,8 @@ main {
 }
 
 main, section {
-    max-height: 100vh;
-    min-height: fit-content;
+    max-height: 200vh;
+    min-height: auto;
     z-index: 111;
 }
 
@@ -229,7 +229,7 @@ main, section {
     color: var(--subheading-secondary-color);
     width: fit-content;
     padding: 0 72px 4px 2px;
-    text-indent: 5px;
+    text-indent: 2rem;
     font-weight: bold;
     border-bottom: 2px solid var(--subheading-secondary-color);
 }
