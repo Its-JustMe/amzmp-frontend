@@ -4,6 +4,8 @@
 
     --heading-color: #4A7866;
     --subheading-color: #808183;
+    --subheading-secondary-color: #C49395;
+    --nav-link-color: #85C2AD;
 
     --btn-background-pink: #E4AAAC;
     --btn-background-blue: #0BAEDC;
@@ -12,4 +14,6 @@
 
     --primary-text-color: #6D6D6D;
     --secondary-text-color: #FFFFFF;
+
+    --font: Comfortaa
 }

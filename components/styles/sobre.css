@@ -1,0 +1,25 @@
+@import './imports.css';
+
+.banner-home {
+    height: 50vh;
+    background: url('../../assets/imgs/IMG_2434.png') no-repeat;
+    background-size: 1450px;
+}
+.page-heading {
+    width: 400px;
+}
+.span-decoration {
+    font-weight: normal;
+}
+.span-decoration::before {
+    width: 800px;
+    left: -200px;
+    transform: translateY(-55px);
+    height: 100px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
