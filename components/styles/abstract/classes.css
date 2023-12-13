@@ -194,6 +194,46 @@ main, section {
     height: auto;
 }
 
+.contact-icon {
+    transition: transform .8s;
+    cursor: pointer;
+    width: 54px;
+    height: auto;
+    z-index: 444;
+}
+.contact-icon:hover {
+    transform: translateX(-60px);
+}
+.msg-whatsapp, .msg-phone {
+    border-radius: 25px;
+    background-color: #fff;
+    margin-top: 60px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.msg-phone {
+    margin-top: 5px;
+}
+#phone:hover {
+    transform: translateX(-75px);
+}
+#whatsapp:hover ~ .msg-whatsapp {
+    opacity: 1;
+}
+#phone:hover ~ .msg-phone {
+    opacity: 1;
+}
+
+.icons {
+    width: 400px; 
+    height: auto;
+    margin-top: 50px;
+    position: relative;
+        top: 50%;
+        left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .card, .card-small {
     position: relative;
     border-radius: 20px;

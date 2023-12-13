@@ -9,4 +9,5 @@
     color: inherit;
     font-size: 18px/22px;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
