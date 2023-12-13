@@ -1,0 +1,10 @@
+@import './imports.css';
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url('../../assets/imgs/banner-blog.svg') no-repeat 100%;
+}

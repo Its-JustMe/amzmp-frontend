@@ -197,19 +197,19 @@ main, section {
 }
 
 .card-1 {
-    background-image: url('../../../assets/imgs/Grupo\ 439.png');
+    background-image: url('../../../assets/imgs/mae-filha.png');
 }
 .card-2 {
-    background-image: url('../../../assets/imgs/Grupo\ 440.png');
+    background-image: url('../../../assets/imgs/pai-filho.png');
 }
 .card-3 {
-    background-image: url('../../../assets/imgs/Grupo\ 441.png');
+    background-image: url('../../../assets/imgs/bebe-chorando.png');
 }
 .card-4 {
-    background-image: url('../../../assets/imgs/Grupo\ 442.png');
+    background-image: url('../../../assets/imgs/criancas-brincando.png');
 }
 .card-5 {
-    background-image: url('../../../assets/imgs/Grupo\ 443.png');
+    background-image: url('../../../assets/imgs/criancas-estudando.png');
 }
 
 .card-title {
@@ -223,6 +223,11 @@ main, section {
     font-size: 12px;
     width: 80%;
     padding: 5px;
+}
+
+.card-img {
+    width: 418px;
+    height: 221px;
 }
 
 .subheading-purple {
@@ -240,6 +245,12 @@ main, section {
 }
 .page-banner.green {
     background-color: var(--btn-background-green);
+}
+
+.absolute-4 {
+    right: 25px;
+    width: 80px;
+    height: auto;
 }
 
 @media (min-width: 768px) {
