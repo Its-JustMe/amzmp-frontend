@@ -189,6 +189,11 @@ main, section {
     margin: auto;
 }
 
+.img-icon {
+    width: 110px;
+    height: auto;
+}
+
 .card, .card-small {
     position: relative;
     border-radius: 20px;
