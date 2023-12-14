@@ -2,7 +2,7 @@
 Este repositório contém o front-end de um site, fazendo parte de um teste.
 
 ## Conteúdo
-<b>Home:<b> A página inicial apresenta uma breve descrição dos serviços oferecidos, um banner ilustrativo e um botão de chamada para agendar consultas.
+<b>Home:</b> A página inicial apresenta uma breve descrição dos serviços oferecidos, um banner ilustrativo e um botão de chamada para agendar consultas.
 
 <b>Sobre:</b> A seção "Sobre" fornece informações detalhadas sobre a Dra. Suzane Sales, sua formação e experiência.
 
