@@ -1,3 +1,5 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F97074&height=120&section=header"/>
+
 # Site da Dra. Suzane Sales
 Este repositório contém o front-end de um site, fazendo parte de um teste.
 
@@ -41,3 +43,5 @@ Contato: Informações de contato, incluindo ícones de telefone e WhatsApp, inc
 ### OU
 
 <p> Acesse através deste link: https://its-justme.github.io/amzmp-frontend/</p>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F97074&height=120&section=footer"/>
