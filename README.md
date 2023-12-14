@@ -1,7 +1,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F97074&height=120&section=header"/>
 
 # Site da Dra. Suzane Sales
-Este repositório contém o front-end de um site, fazendo parte de um teste.
+Este repositório contém o front-end de um site, fazendo parte de um teste para AMZ/MP.
 
 ## Conteúdo
 <b>Home:</b> A página inicial apresenta uma breve descrição dos serviços oferecidos, um banner ilustrativo e um botão de chamada para agendar consultas.
