@@ -24,8 +24,8 @@ Contato: Informações de contato, incluindo ícones de telefone e WhatsApp, inc
 
 ## Tecnologias Utilizadas
 <ul>
-<li><b>Bootstrap (v5.3.2):</b> Framework CSS para utilizar componentes pré-estilizados.
-<li><b>Font Awesome (v6.4.0):</b> Biblioteca de ícones vetoriais.
+<li><b>Bootstrap:</b> Framework CSS para utilizar componentes pré-estilizados.
+<li><b>Font Awesome:</b> Biblioteca de ícones vetoriais.
 <li><b>Google Fonts:</b> Fontes personalizadas utilizadas no site.
 ***************************************************************************************
 <li><b>HTML5 e CSS3:</b> Linguagens de Marcação e Estilização para compor a estrutura básica e design do site.
